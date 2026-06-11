@@ -1161,7 +1161,7 @@
   <section class="hero" id="home">
     <img
       class="hero-bg"
-      src="tc-logo.jpeg"
+      src="gallery-5.jpeg"
       alt="Tre Colbert Photography — Southern California wedding photography"
       loading="eager"
     />
@@ -1214,7 +1214,7 @@
           <div class="about-corner about-corner-br"></div>
           <img
             class="about-main-photo"
-            src="https://cdn11.lightfolio.com/74a5ac35-cd20-4d40-bc68-78aafd3cdc41/a655c541-df9c-4d26-84af-143626595b1a.jpg"
+            src="about-photo.jpeg"
             alt="Tre Colbert — Southern California wedding and portrait photographer"
             style="object-position: center top;"
           />
@@ -1248,35 +1248,35 @@
       </div>
       <div class="gallery-mosaic reveal">
         <div class="gallery-item g1">
-          <img src="tc-logo.jpeg" alt="Wedding ceremony — authentic emotion by Tre Colbert Photography" style="object-position: center center;"/>
+          <img src="gallery-1.jpeg" alt="Wedding ceremony — authentic emotion by Tre Colbert Photography" style="object-position: center center;"/>
           <div class="gallery-item-overlay"><span>The Ceremony</span></div>
         </div>
         <div class="gallery-item g2">
-          <img src="tc-logo.jpeg" alt="Couple dancing at fountain — Imprint Photography SoCal" style="object-position: center top;"/>
+          <img src="gallery-6.jpeg" alt="Couple dancing at fountain — Imprint Photography SoCal" style="object-position: center top;"/>
           <div class="gallery-item-overlay"><span>Portraits</span></div>
         </div>
         <div class="gallery-item g3">
-          <img src="tc-logo.jpeg" alt="Sunset wedding portrait — Tre Colbert Photography Inland Empire" style="object-position: center center;"/>
+          <img src="gallery-5.jpeg" alt="Sunset wedding portrait — Tre Colbert Photography Inland Empire" style="object-position: center center;"/>
           <div class="gallery-item-overlay"><span>Moments</span></div>
         </div>
         <div class="gallery-item g4">
-          <img src="tc-logo.jpeg" alt="Romantic couple portrait with bouquet — Tre Colbert Photography" style="object-position: center top;"/>
+          <img src="gallery-7.jpeg" alt="Romantic couple portrait with bouquet — Tre Colbert Photography" style="object-position: center top;"/>
           <div class="gallery-item-overlay"><span>Candids</span></div>
         </div>
         <div class="gallery-item g5">
-          <img src="tc-logo.jpeg" alt="Bridal bouquet detail — Tre Colbert Photography Southern California" style="object-position: center center;"/>
+          <img src="gallery-2.jpeg" alt="Bridal bouquet detail — Tre Colbert Photography Southern California" style="object-position: center center;"/>
           <div class="gallery-item-overlay"><span>Details</span></div>
         </div>
         <div class="gallery-item g6">
-          <img src="tc-logo.jpeg" alt="Wedding kiss at golden hour — Tre Colbert Photography" style="object-position: center top;"/>
+          <img src="gallery-4.jpeg" alt="Wedding kiss at golden hour — Tre Colbert Photography" style="object-position: center top;"/>
           <div class="gallery-item-overlay"><span>Engagements</span></div>
         </div>
         <div class="gallery-item g7">
-          <img src="tc-logo.jpeg" alt="Black and white bride portrait — Imprint Photography" style="object-position: center center;"/>
+          <img src="gallery-8.jpeg" alt="Black and white bride portrait — Imprint Photography" style="object-position: center center;"/>
           <div class="gallery-item-overlay"><span>Reception</span></div>
         </div>
         <div class="gallery-item g8">
-          <img src="tc-logo.jpeg" alt="Joyful couple lift — wedding photography by Tre Colbert" style="object-position: center top;"/>
+          <img src="gallery-1.jpeg" alt="Joyful couple lift — wedding photography by Tre Colbert" style="object-position: center top;"/>
           <div class="gallery-item-overlay"><span>Bridal</span></div>
         </div>
       </div>
@@ -1523,7 +1523,7 @@
         "Tre is absolutely incredible. Our wedding photos took our breath away." — Recent Client
       </div>
       <div style="width:1px;height:36px;background:rgba(200,169,106,0.3);"></div>
-      <a href="https://g.page/r/review" target="_blank" style="
+      <a href="https://www.google.com/search?q=Tre+Colbert+TC+Photography+Southern+California" target="_blank" style="
         font-size:0.72rem;letter-spacing:0.15em;text-transform:uppercase;
         color:#c8a96a;border:1px solid rgba(200,169,106,0.4);
         padding:0.45rem 1rem;text-decoration:none;
@@ -1599,7 +1599,7 @@
   <div class="cta-section">
     <img
       class="cta-bg"
-      src="tc-logo.jpeg"
+      src="gallery-8.jpeg"
       alt="Tre Colbert Photography — Book your Southern California wedding photographer"
     />
     <div class="cta-overlay"></div>
@@ -1647,15 +1647,18 @@
           </div>
         </div>
         <div class="reveal reveal-delay-1">
+          <form name="wedding-inquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/success.html">
+            <input type="hidden" name="form-name" value="wedding-inquiry" />
+            <p style="display:none;"><input name="bot-field" /></p>
           <div class="form-row">
-            <input type="text" class="contact-form-field" placeholder="Your Name" aria-label="Your name" />
-            <input type="email" class="contact-form-field" placeholder="Email Address" aria-label="Email address" />
+            <input type="text" name="name" class="contact-form-field" placeholder="Your Name" aria-label="Your name" required />
+            <input type="email" name="email" class="contact-form-field" placeholder="Email Address" aria-label="Email address" required />
           </div>
           <div class="form-row">
-            <input type="tel" class="contact-form-field" placeholder="Phone Number" aria-label="Phone number" />
-            <input type="date" class="contact-form-field" aria-label="Wedding date" />
+            <input type="tel" name="phone" class="contact-form-field" placeholder="Phone Number" aria-label="Phone number" />
+            <input type="date" name="wedding-date" class="contact-form-field" aria-label="Wedding date" />
           </div>
-          <select class="contact-form-field" aria-label="Package interest">
+          <select name="package" class="contact-form-field" aria-label="Package interest">
             <option value="" disabled selected>Package Interest</option>
             <option>Wedding Photo + Video — $3,800+</option>
             <option>Wedding Photo + Highlight Film — $2,800+</option>
@@ -1665,7 +1668,7 @@
             <option>Bridal Session — $800+</option>
             <option>Custom / Not Sure Yet</option>
           </select>
-          <select class="contact-form-field" aria-label="Service area">
+          <select name="area" class="contact-form-field" aria-label="Service area">
             <option value="" disabled selected>Where Is Your Wedding?</option>
             <option>Inland Empire</option>
             <option>Orange County</option>
@@ -1674,7 +1677,7 @@
             <option>Other Southern California</option>
             <option>Out of State / Destination</option>
           </select>
-          <select class="contact-form-field" aria-label="How did you find Tre">
+          <select name="referral" class="contact-form-field" aria-label="How did you find Tre">
             <option value="" disabled selected>How Did You Find Me?</option>
             <option>Google Search</option>
             <option>Instagram (@ImprintPhotography_)</option>
@@ -1683,8 +1686,9 @@
             <option>Wedding Planning Site</option>
             <option>Other</option>
           </select>
-          <textarea class="contact-form-field" placeholder="Tell me about your wedding — venue, vibe, vision, and anything else I should know! I love hearing your story." aria-label="Wedding details"></textarea>
+          <textarea name="message" class="contact-form-field" placeholder="Tell me about your wedding — venue, vibe, vision, and anything else I should know! I love hearing your story." aria-label="Wedding details"></textarea>
           <button type="submit" class="contact-submit">Send My Inquiry →</button>
+          </form>
         </div>
       </div>
     </div>
@@ -1870,28 +1874,28 @@
           text-align: center;
         ">Spring &amp; fall 2026 weekends are filling fast. Drop your info below and Tre will get back to you within 24 hours.</p>
 
-        <input type="text" placeholder="Your Name" style="
+        <input id="popupName" type="text" placeholder="Your Name" style="
           width: 100%; background: #f3ede3; border: 1px solid rgba(200,169,106,0.25);
           padding: 0.8rem 1rem; font-family: Outfit, sans-serif; font-size: 0.85rem;
           color: #1a1815; outline: none; margin-bottom: 0.7rem; border-radius: 0;
         "/>
-        <input type="tel" placeholder="Phone Number" style="
+        <input id="popupPhone" type="tel" placeholder="Phone Number" style="
           width: 100%; background: #f3ede3; border: 1px solid rgba(200,169,106,0.25);
           padding: 0.8rem 1rem; font-family: Outfit, sans-serif; font-size: 0.85rem;
           color: #1a1815; outline: none; margin-bottom: 0.7rem; border-radius: 0;
         "/>
-        <input type="text" placeholder="Wedding Date (or Month/Year)" style="
+        <input id="popupDate" type="text" placeholder="Wedding Date (or Month/Year)" style="
           width: 100%; background: #f3ede3; border: 1px solid rgba(200,169,106,0.25);
           padding: 0.8rem 1rem; font-family: Outfit, sans-serif; font-size: 0.85rem;
           color: #1a1815; outline: none; margin-bottom: 1rem; border-radius: 0;
         "/>
 
-        <a href="sms:+19512088728" style="
-          display: block;
+        <button onclick="sendPopupSMS()" style="
+          display: block; width: 100%;
           text-align: center;
           background: #1a1815;
           color: #faf8f4;
-          text-decoration: none;
+          border: none; cursor: pointer;
           padding: 0.9rem;
           font-family: Outfit, sans-serif;
           font-size: 0.78rem;
@@ -1903,7 +1907,7 @@
         " onmouseover="this.style.background='#c8a96a';this.style.color='#1a1815'"
            onmouseout="this.style.background='#1a1815';this.style.color='#faf8f4'">
           Check My Date →
-        </a>
+        </button>
 
         <p style="
           text-align: center;
@@ -1916,6 +1920,14 @@
   </div>
 
   <script>
+    function sendPopupSMS() {
+      const name = document.getElementById('popupName').value.trim();
+      const phone = document.getElementById('popupPhone').value.trim();
+      const date = document.getElementById('popupDate').value.trim();
+      const msg = `Hi Tre! I'm interested in booking. Name: ${name || 'N/A'} | Phone: ${phone || 'N/A'} | Wedding Date: ${date || 'N/A'}`;
+      window.location.href = `sms:+19512088728&body=${encodeURIComponent(msg)}`;
+    }
+
     // Nav scroll behavior
     const nav = document.getElementById('mainNav');
     let popupShown = false;
